@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #chat { height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; }
+    #message { width: 70%; }
+    #username { width: 20%; }
+  </style>
+</head>
+
+<body>
+  <h1>Chat App</h1>
+  <input id="username" placeholder="Username" />
+  <div id="chat"></div>
+  <input id="message" placeholder="Type a message..." />
+  <button id="SendButton" onclick="sendMessage()">Send</button>
+  <script src="client.js"></script>
+</body>
+</html>
