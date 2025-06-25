@@ -12,9 +12,5 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  },
-  "description": "When you're ready, start your application by running: `docker compose up --build`.",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
